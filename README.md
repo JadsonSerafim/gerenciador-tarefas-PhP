@@ -71,12 +71,12 @@ Siga os passos abaixo para configurar e rodar o projeto no seu ambiente local.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/JadsonSerafim/gerenciador-tarefas-PhP]
+    git clone [https://github.com/JadsonSerafim/gerenciador-tarefas-php]
     ```
 
 2.  **Acesse a pasta do projeto:**
     ```bash
-    cd [gerenciador-tarefas-PhP]
+    cd [gerenciador-tarefas-php]
     ```
 
 3.  **Instale as dependências do PHP:**
@@ -118,31 +118,10 @@ Siga os passos abaixo para configurar e rodar o projeto no seu ambiente local.
         ```
 
 5.  **Configure o Servidor Web:**
-    * O arquivo `.htaccess` fornecido já está configurado para redirecionar todas as requisições para `index.php`, o que é ideal para a API.
+    * O arquivo `.htaccess` fornecido já está configurado para redirecionar todas as requisições para `API.php`, o que é ideal para a API.
     * Coloque a pasta do projeto no diretório do seu servidor web local (como `htdocs` no XAMPP).
-    * Acesse o projeto pelo seu navegador. A URL base para as chamadas da API é `http://localhost/gerenciador-tarefas-PhP/src`.
-/
-├── .htaccess           # Configuração de reescrita de URL para o roteador
-├── composer.json       # Dependências do PHP (não fornecido, mas necessário)
-├── composer.lock       # Lockfile do Composer
-├── vendor/             # Pasta de dependências do Composer
-│
-└── app_public
-├── index.php           # Página contendo as tarefas
-├── login.php           # Página de login do usuário
-├── registro.php        # Página de registro do usuário
-│
-└── src/
-├── index.php       # Ponto de entrada da API (todas as rotas)
-├── conexao.php     # Classe de conexão com o banco de dados
-├── style.css       # Estilos CSS customizados
-├── script.js       # Lógica AJAX para as tarefas
-└── login.js        # Lógica AJAX para login/registro
+    * Acesse o projeto pelo seu navegador. A URL base para as chamadas da API é `http://localhost/gerenciador-tarefas-php/`.
 
-
----
-
----
 
 ### 🌐 Endpoints da API
 
