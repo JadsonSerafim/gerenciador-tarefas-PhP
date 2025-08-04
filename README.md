@@ -100,7 +100,6 @@ Siga os passos abaixo para configurar e rodar o projeto no seu ambiente local.
           nome VARCHAR(255) NOT NULL,
           email VARCHAR(255) NOT NULL UNIQUE,
           senha VARCHAR(255) NOT NULL,
-          data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
 
         -- Tabela para armazenar as tarefas
