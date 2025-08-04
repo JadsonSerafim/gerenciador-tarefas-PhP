@@ -9,7 +9,7 @@
     <script src="script.js"></script>
     <script src="login.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-        <link rel="icon" type="image/png" href="app_public/agenda.png">
+        <link rel="icon" type="image/png" href="agenda.png">
 
     <title>Login</title>
 </head>
